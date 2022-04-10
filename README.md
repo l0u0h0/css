@@ -32,3 +32,9 @@
 - `기타` table, table-row, table-cell ...
 
 - `inline` 요소는 가로와 세로 넓이를 지정할 수 없다.
+
+### text
+
+- `line-height` 문자열의 높이 지정
+- `text-indent` 문자 첫 줄의 들여쓰기  
+  음수 사용 가능, 반대는 내어쓰기

@@ -22,3 +22,21 @@ span {
   background-color: royalblue;
   color: white;
 }
+
+a {
+  display: block;
+  width: 200px;
+  height: 100px;
+  background-color: antiquewhite;
+  font-size: 22px;
+  color: white;
+  text-decoration: line-through;
+  line-height: 100px;
+  text-align: center;
+  text-indent: 100px;
+}
+
+p {
+  font-size: 22px;
+  text-indent: 150px;
+}
