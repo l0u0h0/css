@@ -58,3 +58,16 @@
   - `scroll` 이미지가 요소를 따라서 같이 스크롤
   - `fixed` 이미지가 뷰포트에 고정, 스크롤 x
   - `local` 요소 내 스크롤 시 이미지가 같이 스크롤
+
+### position
+
+- `position` 요소의 위치 지정 기준
+  - `static` 기준 없음
+  - `relative` 요소 자신을 기준
+  - `absolute` 위치상 부모 요소를 기준
+  - `fixed` 뷰포트(브라우저) 를 기준
+  - `sticky` 스크롤 영역 기준
+- `top, bottom, left, right, z-index` position과 같이 사용하는 속성들  
+  모두 음수를 사용 가능
+  - `auto` 브라우저가 계산
+  - 단위 - px, em, rem ...
