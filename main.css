@@ -13,6 +13,7 @@
 }
 body {
   margin: 20px;
+  height: 3000px;
 }
 
 span {
@@ -24,6 +25,7 @@ span {
 }
 
 a {
+  margin: 20px;
   display: block;
   width: 200px;
   height: 100px;
@@ -41,21 +43,30 @@ p {
   text-indent: 150px;
 }
 
-.container {
+.wrap {
+  width: 400px;
+  height: 300px;
+  background-color: tomato;
+  position: relative;
+  margin: 20px;
+}
+.wrap .container {
   width: 300px;
   background-color: royalblue;
-  position: relative;
+  position: absolute;
+  top: 30px;
+  right: 40px;
 }
 
-.container .item {
+.wrap .container .item {
   border: 4px dashed red;
   background-color: blanchedalmond;
 }
-.container .item:nth-child(1) {
+.wrap .container .item:nth-child(1) {
   width: 100px;
   height: 100px;
 }
-.container .item:nth-child(2) {
+.wrap .container .item:nth-child(2) {
   width: 140px;
   height: 70px;
   /* position: absolute;
@@ -64,11 +75,34 @@ p {
   /* position: relative;
   top: 30px;
   left: 200px; */
-  position: absolute;
+  position: fixed;
   top: 30px;
   right: 30px;
 }
-.container .item:nth-child(3) {
+.wrap .container .item:nth-child(3) {
   width: 70px;
   height: 120px;
+}
+
+.container {
+  width: 300px;
+  background-color: royalblue;
+  position: relative;
+}
+
+.container .item {
+  width: 100px;
+  height: 100px;
+  border: 4px dashed red;
+  background-color: blanchedalmond;
+}
+.container .item:nth-child(1) {
+  position: relative;
+}
+.container .item:nth-child(2) {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+.container .item:nth-child(3) {
 }
