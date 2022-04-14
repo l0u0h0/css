@@ -98,6 +98,7 @@ p {
 }
 .container .item:nth-child(1) {
   position: relative;
+  z-index: 1;
 }
 .container .item:nth-child(2) {
   position: absolute;
@@ -105,4 +106,6 @@ p {
   left: 50px;
 }
 .container .item:nth-child(3) {
+  z-index: 1;
+  position: fixed;
 }
