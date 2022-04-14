@@ -88,3 +88,24 @@
 - ### 요소의 `dispaly`가 변경됨
 - `position` 속성의 값으로 `absolute, fixed`가 지정된 요소는,  
   `display` 속성이 `block` 으로 변경됨.
+
+```css
+span {
+  display: block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+```
+
+```css
+span {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+```
+
+- 위 두 코드는 같다.
+- `in-line` 상태에서는 가로 세로 넓이를 지정해줄 수 없지만 `block` 에서는 가능,  
+  `span` 태그는 대표적인 인라인 엘리먼트
