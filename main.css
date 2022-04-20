@@ -109,3 +109,14 @@ p {
   z-index: 1;
   position: fixed;
 }
+.container-flex {
+  background-color: royalblue;
+  display: flex;
+  margin-top: 50px;
+}
+.container-flex .item-flex {
+  width: 100px;
+  height: 100px;
+  border: 3px dashed red;
+  background-color: orange;
+}

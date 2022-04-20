@@ -109,3 +109,30 @@ span {
 - 위 두 코드는 같다.
 - `in-line` 상태에서는 가로 세로 넓이를 지정해줄 수 없지만 `block` 에서는 가능,  
   `span` 태그는 대표적인 인라인 엘리먼트
+
+## Flex(정렬)
+
+- 1차원의 레이아웃을 그리는 개념
+- `display: flex`로 지정
+- Flex가 지정된 요소는 Flex Container가 된다.
+- 자식 요소는 Flex items라 부른다.
+- flex와 관련된 속성은 container와 items 부분이 나뉘어있다.
+- `Container`에 관련된 속성들
+  - `display`, `flex-flow`, `flex-direction`, `flex-wrap`,  
+    `justify-content`, `align-content`, `align-items`
+- `Items`에 관련된 속성들
+
+  - `order`, `flex`, `flex-grow`, `flex-shrink`,  
+    `flex-basis`, `align-self`
+
+- ### display
+- Flex Container의 화면 출력(보여짐) 특성
+- `flex`: 블럭 요소와 같이 Flex Container 정의
+- `inline-flex`: 인라인 요소와 같이 Flex Container 정의
+
+- ### flex-direction
+- 주 축을 설정
+- `row`: 행 축(좌 => 우) 수평
+- `row-reverse`: 행 축 (우 => 좌)
+- `column`: 열 축(위 => 아래) 수직
+- `column-reverse`: 열 축(아래 => 위)
