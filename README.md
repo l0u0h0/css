@@ -136,3 +136,35 @@ span {
 - `row-reverse`: 행 축 (우 => 좌)
 - `column`: 열 축(위 => 아래) 수직
 - `column-reverse`: 열 축(아래 => 위)
+
+- ### flex-wrap
+- Flex items 묶음(줄 바꿈) 여부
+- `nowrap`: 묶음(줄 바꿈) 없음
+- `wrap`: 여러 줄로 묶음
+- `wrap-reverse`: wrap의 반대 방향으로 묶음
+
+- ### fustify-content
+- 주 축의 정렬 방법
+- `flex-start`: Flex items를 시작점으로 정렬
+- `flex-end`: Flex items를 끝점으로 정렬
+- `center`: Flex items를 가운데 정렬
+- `space-between`: 각 Flex item 사이를 균등하게 정렬
+- `space-around` : 각 Flex item의 외부 여백을 균등하게 정렬
+
+- ### align-content
+- 교차 축의 여러 줄 정렬 방법
+- `flex-wrap`이 있어야 한다. (한 줄이 아닌 여러 줄이 있어야 적용이 된다.)
+- `stretch`: Flex Items를 시작점으로 정렬
+- `flex-start`: Flex Items를 시작점으로 정렬
+- `flex-end`: Flex Items를 끝점으로 정렬
+- `center`: Flex Items를 가운데 정렬
+- `space-between`: 각 Flex Item 사이를 균등하게 정렬
+- `space-around` : 각 Flex item의 외부 여백을 균등하게 정렬
+
+- ### align-items
+- 교차 축의 한 줄 정렬 방법
+- `stretch`: Flex Items를 교차 축으로 늘림
+- `flex-start`: Flex Items를 시작점으로 정렬
+- `flex-end`: Flex Items를 끝점으로 정렬
+- `center`: Flex Items를 가운데 정렬
+- `baseline`: Flex Items를 각 줄의 문자 기준선에 정렬
