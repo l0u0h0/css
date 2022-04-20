@@ -268,3 +268,23 @@ span {
   - 회전(x,y,z,각도)
 - `matrix3d(n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n)`
 - 3차원 변환 효과
+- transform 속성들
+- ### perspective
+- 하위 요소를 관찰하는 원근 거리를 지정
+- `단위`: px 등 단위로 지정
+
+- perspective 속성과 함수의 차이점
+
+```js
+perspective: 600px; // 속성
+// 적용대상: 관찰 대상의 부모
+// 기준점 설정: perspective-origin
+transform: perspective(600px); // 함수
+// 적용대상: 관찰 대상
+// 기준점 설정: transform-origin
+```
+
+- ### backface-visibility
+- 3D 변환으로 회전된 요소의 뒷면 숨김 여부
+- `visible`: 뒷면 보임
+- `hidden`: 뒷면 숨김
