@@ -144,3 +144,14 @@ p {
 .container-flex1 .item-fles1:nth-child(3) {
   flex-grow: 2;
 }
+.div {
+  margin-top: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  transition: 1s 0.5s;
+}
+.div:active {
+  width: 300px;
+  background-color: royalblue;
+}
