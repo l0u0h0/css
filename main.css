@@ -154,4 +154,21 @@ p {
 .div:active {
   width: 300px;
   background-color: royalblue;
+  transform: perspective(500px) scale(2) translateY(40px) rotateY(80deg)
+    skewX(45deg) skewY(70deg);
+}
+body {
+  padding: 100px;
+}
+.container_qusghks {
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: royalblue;
+}
+.container_qusghks .item_qusghks {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  transform: perspective(150px) rotateX(45deg) translateX(100px);
 }

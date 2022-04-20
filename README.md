@@ -223,3 +223,48 @@ span {
 - 전환 효과가 몇 초 뒤에 시작할지 대기시간을 지정
 - `0s`: 대기시간 없음
 - `시간`: 대기시간(s)을 지정
+
+## 변환
+
+- 요소의 변환 효과
+- `transform`: 변환함수1 변환함수2 변환함수3 ... ;
+- `transform`: 원근법 이동 크기 회전 기울임;
+- ### 2D 변환함수
+- `px`
+  - `translate(x,y)`
+  - `translateX(x)`
+  - `translateY(y)`
+  - 이동(x축, y축)
+- `없음(배수)`
+  - `scale(x,y)`
+  - `scaleX(x)`
+  - `scaleY(y)`
+  - 크기(x축 ,y축)
+- `deg`
+  - `rotate(degree)`
+  - 회전(각도)
+  - `skew(x,y)`
+  - `skewX(x)`
+  - `skewY(y)`
+  - 기울임(x축, y축)
+- `matrix(n,n,n,n,n,n)`
+- 2차원 변환 효과
+- ### 3D 변환 함수
+- `px`
+  - `translateZ(z)`
+  - `translate3d(x,y,z)`
+  - 이동
+  - `perspecive(n)`
+  - 원근법(거리) -> 제일 앞에 작성해야함.!!!!!!!
+- `없음(배수)`
+  - `scaleZ(z)`
+  - `scale3d(x,y,z)`
+  - 크기
+- `deg`
+  - `rotateX(x)`
+  - `rotateY(y)`
+  - `rotateZ(z)`
+  - `rotate3d(x,y,z,a)`
+  - 회전(x,y,z,각도)
+- `matrix3d(n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n)`
+- 3차원 변환 효과
